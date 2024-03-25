@@ -1,13 +1,14 @@
 /* eslint-disable react/prop-types */
 import {
   createContext,
-  useState,
+  // useState,
   useEffect,
   useContext,
   useReducer,
 } from "react";
 
-const BASE_URL = "http://localhost:9000";
+const BASE_URL = "https://worldwisedata.onrender.com";
+// const BASE_URL = "http://localhost:9000";
 const CitiesContext = createContext();
 
 const initialState = {
@@ -77,6 +78,7 @@ function CitiesProvider({ children }) {
         const res = await fetch(`${BASE_URL}/cities`);
         const data = await res.json();
         // setCities(data);
+        console.log(data);
         dispatch({ type: "cities/loaded", payload: data });
       } catch {
         // alert("There was an error loading data...");
