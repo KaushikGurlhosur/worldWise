@@ -1,0 +1,100 @@
+{
+  "cities": [
+    {
+      "cityName": "Lisbon",
+      "country": "Portugal",
+      "emoji": "🇵🇹",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "My favorite city so far!",
+      "position": {
+        "lat": 38.727881642324164,
+        "lng": -9.140900099907554
+      },
+      "id": 73930385
+    },
+    {
+      "cityName": "Madrid",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2027-07-15T08:22:53.976Z",
+      "notes": "",
+      "position": {
+        "lat": 40.46635901755316,
+        "lng": -3.7133789062500004
+      },
+      "id": 17806751
+    },
+    {
+      "cityName": "Berlin",
+      "country": "Germany",
+      "emoji": "🇩🇪",
+      "date": "2027-02-12T09:24:11.863Z",
+      "notes": "Amazing 😃",
+      "position": {
+        "lat": 52.53586782505711,
+        "lng": 13.376933665713324
+      },
+      "id": 98443197
+    },
+    {
+      "id": "1d33",
+      "cityName": "Kharanaq",
+      "country": "",
+      "emoji": "🇮🇷",
+      "date": "2024-03-22T15:16:20.648Z",
+      "notes": "",
+      "position": {
+        "lat": "32.58384932565662",
+        "lng": "54.55810546875001"
+      }
+    },
+    {
+      "id": "b96d",
+      "cityName": "Daman",
+      "country": "",
+      "emoji": "🇦🇫",
+      "date": "2024-03-22T15:21:53.677Z",
+      "notes": "",
+      "position": {
+        "lat": "31.765537409484374",
+        "lng": "66.13769531250001"
+      }
+    },
+    {
+      "id": "3ae7",
+      "cityName": "Turkmen-Kala",
+      "country": "",
+      "emoji": "🇹🇲",
+      "date": "2024-03-22T15:21:59.814Z",
+      "notes": "hello",
+      "position": {
+        "lat": "37.30027528134433",
+        "lng": "62.64404296875001"
+      }
+    },
+    {
+      "id": "a300",
+      "cityName": "Delhi",
+      "country": "INDIA",
+      "emoji": "🇮🇳",
+      "date": "2024-03-22T15:23:24.966Z",
+      "notes": "",
+      "position": {
+        "lat": "28.5941685062326",
+        "lng": "77.255859375"
+      }
+    },
+    {
+      "id": "7f3c",
+      "cityName": "Avanos",
+      "country": "",
+      "emoji": "🇹🇷",
+      "date": "2024-03-23T06:26:14.802Z",
+      "notes": "",
+      "position": {
+        "lat": "38.94232097947902",
+        "lng": "34.82666015625001"
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+/* .footer {
+  margin-top: auto;
+}
+
+.copyright {
+  font-size: 1.2rem;
+  color: var(--color-light--1);
+} */
+
+.footer {
+  margin-top: auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+.copyright {
+  font-size: 1.2rem;
+  color: var(--color-light--1);
+}
+
+@media (max-width: 767.98px) {
+  .footer {
+    padding: 0.5rem;
+  }
+
+  .copyright {
+    font-size: 1rem;
+  }
+}

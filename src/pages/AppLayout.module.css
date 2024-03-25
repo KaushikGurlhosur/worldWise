@@ -1,0 +1,38 @@
+/* .app {
+  height: 100vh;
+  padding: 2.4rem;
+  overscroll-behavior-y: none;
+  display: flex;
+  position: relative;
+} */
+
+/* .app {
+  height: 100vh;
+  padding: 2.4rem;
+  overscroll-behavior-y: none;
+  display: flex;
+  position: relative;
+}
+
+@media (max-width: 767.98px) {
+  .app {
+    padding: 1.6rem;
+  }
+} */
+
+.app {
+  height: 100vh;
+  padding: 2.4rem;
+  overscroll-behavior-y: none;
+  display: flex;
+  position: relative;
+  flex-direction: row; /* Add this line to make the app display as a row */
+}
+
+@media (max-width: 767.98px) {
+  .app {
+    padding: 1.6rem;
+    flex-direction: column; /* Change to column for smaller devices */
+    overflow-y: scroll;
+  }
+}
