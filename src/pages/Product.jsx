@@ -11,17 +11,21 @@ export default function Product() {
           alt="person with dog overlooking mountain with sunset"
         />
         <div>
-          <h2>About WorldWide.</h2>
+          <h2>About WorldWise.</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo est
-            dicta illum vero culpa cum quaerat architecto sapiente eius non
-            soluta, molestiae nihil laborum, placeat debitis, laboriosam at fuga
-            perspiciatis?
+            WorldWise is your passport to memories, A digital atlas of our
+            life's journeys. From bustling cities to tranquil shores, Every
+            step, every sight, WorldWise stores.
           </p>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis
-            doloribus libero sunt expedita ratione iusto, magni, id sapiente
-            sequi officiis et.
+            With a click, a tap, our travels unfold, Mapped out in pixels,
+            stories retold. Each destination, a chapter in our tale, WorldWise,
+            our guide, we'll never fail.
+          </p>
+          <p>
+            Across continents, through cultures diverse, WorldWise tracks each
+            place, every traverse. So let's wander far and wide, explore anew,
+            With WorldWise, our adventures continue.
           </p>
         </div>
       </section>

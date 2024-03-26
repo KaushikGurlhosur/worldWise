@@ -5,6 +5,7 @@ import {
   useEffect,
   useContext,
   useReducer,
+  useCallback,
 } from "react";
 
 const BASE_URL = "https://worldwisedata.onrender.com";
@@ -94,27 +95,32 @@ function CitiesProvider({ children }) {
     fetchCities();
   }, []);
 
-  async function getCity(id) {
-    dispatch({ type: "loading" });
+  const getCity = useCallback(
+    async function getCity(id) {
+      if (Number(id) === currentCity.id) return;
 
-    try {
-      //   setIsLoading(true);
-      const res = await fetch(`${BASE_URL}/cities/${id}`);
-      const data = await res.json();
-      //   setCurrentCity(data);
+      dispatch({ type: "loading" });
 
-      dispatch({ type: "city/loaded", payload: data });
-    } catch {
-      //   alert("There was an error loading data...");
-      dispatch({
-        type: "rejected",
-        payload: "There was an error loading data...",
-      });
-    }
-    // finally {
-    //   setIsLoading(false);
-    // }
-  }
+      try {
+        //   setIsLoading(true);
+        const res = await fetch(`${BASE_URL}/cities/${id}`);
+        const data = await res.json();
+        //   setCurrentCity(data);
+
+        dispatch({ type: "city/loaded", payload: data });
+      } catch {
+        //   alert("There was an error loading data...");
+        dispatch({
+          type: "rejected",
+          payload: "There was an error loading data...",
+        });
+      }
+      // finally {
+      //   setIsLoading(false);
+      // }
+    },
+    [currentCity.id]
+  );
 
   async function createCity(newCity) {
     dispatch({ type: "loading" });
